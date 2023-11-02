@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navigation {
+  background-color: rgb(152, 216, 170);
+  padding: 0px 30px;
+  width: 100%;
+  z-index: 2;
+}
+nav > div > .item {
+  font-weight: 600;
+  transition-duration: 0.5s;
+  padding: 3px 20px;
+  font-size: 20px;
+  color: rgb(25, 135, 84);
+  border-radius: 15px;
+  border: 2px solid transparent;
+}
+nav > div > .item:hover {
+  background-color: rgb(25, 135, 84);
+  color: white;
+}
+nav > div > .company {
+  font-weight: 800;
+  color: rgb(17, 103, 93);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+.page1 {
+  padding-top: 20px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.page1 > .card {
+  min-height: 300px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 30px;
+  border: 2px solid rgb(25, 135, 84);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.296);
+}
+.page1 > .card > .content {
+  word-spacing: 1px;
+  height: 100%;
+  width: 100%;
+  letter-spacing: 1px;
+}
+.page1 > .card > .content > img {
+  height: 250px;
+  width: 250px;
+  float: right;
+  border-radius: 25px;
+}
+.page1 > .card > .content > h1 {
+  font-size: 30px;
+  font-weight: 550;
+  color: rgb(25, 135, 84);
+}
+.page1 > .card > .content > h2 {
+  font-size: 20px;
+  margin-left: 3px;
+  font-weight: 550;
+  color: rgb(131, 124, 124);
+  margin-bottom: 10px;
+}
+.page1 > .card > .content > h3 {
+  font-weight: 550;
+}
+.page1 > .card > .content > h3 > span {
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 35px;
+}
+.page1 > .card > .content > h3 > span > i {
+  color: rgb(240, 206, 13);
+}
+.page1 > .card > .content > h5 {
+  line-height: 30px;
+  margin-top: 30px;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.footer > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+  border: 2px solid rgb(25, 135, 84);
+  background-color: white;
+}
+button.active {
+  color: white;
+  background-color: rgb(25, 135, 84);
+}
+.optioning{
+  display: flex;
+  justify-content: space-evenly;
+}
+select{
+  padding: 10px;
+  height: 50px;
+  margin-top: 80px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(25, 135, 84);
+  border: 2px solid rgb(25, 135, 84);
+}
+select:focus{
+  outline: none;
+}
+.optioning>div>p{
+  margin-top: 90px;
+  margin-right: 40px;
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: rgb(25, 135, 84);
+
+}
+.optioning>div{
+  display: flex;
+}
